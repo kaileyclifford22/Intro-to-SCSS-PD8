@@ -1,22 +1,23 @@
 .box {
-  color: black;
+  color: white;
   font-size: 20px;
   text-align: center;
-  font-family: 'Advent Pro', sans-serif;
+  font-family: 'Amiri', serif;
+  border-radius: 5% / 5%;
   /*text-shadow: 4px 4px 0 rgba(0,0,0,0.1);*/
   padding: 10px;
-  max-width: 75vw;
+  max-width: 40vw;
 }
 
-.box1 {background: #bdbdbd;}
-.box2 {background: #bdbdbd;}
-.box3 {background: #bdbdbd;}
+.box1 {background: black;}
+.box2 {background: black;}
+.box3 {background: black;}
 
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  min-height:100vh;
+  justify-content: space-around;
+  min-height:250vh;
   align-items: center;
   /*border: 10px solid mistyrose;*/
 }
